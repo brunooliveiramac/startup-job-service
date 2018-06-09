@@ -1,0 +1,10 @@
+server:
+  port: 8887
+spring:
+  profiles:
+    active: qa
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: startup
+      password: startup
